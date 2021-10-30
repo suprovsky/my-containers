@@ -1,4 +1,4 @@
-FROM crontab-ui:latest
+FROM alseambusher/crontab-ui:latest
 
 RUN apk update && apt upgrade \
     && apk add rsync openssh-client \
